@@ -21,6 +21,7 @@ jobs:
         dir
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        python -m pip install --upgrade pip pandas
         python program.py
         dir
       env: # Or as an environment variable
